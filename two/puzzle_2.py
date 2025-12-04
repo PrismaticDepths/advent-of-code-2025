@@ -1,4 +1,4 @@
-"""https://adventofcode.com/2025/day/2"""
+"""https://adventofcode.com/2025/day/2#part2"""
 
 def read_puzzle_input(text:str):
 	return list(map(lambda f: f.split("-"),text.split(",")))

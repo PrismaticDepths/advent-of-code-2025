@@ -1,4 +1,4 @@
-"""https://adventofcode.com/2025/day/4"""
+"""https://adventofcode.com/2025/day/4#part2"""
 import copy,time
 
 def read_puzzle_input(text:str):

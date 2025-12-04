@@ -1,4 +1,4 @@
-"""https://adventofcode.com/2025/day/3"""
+"""https://adventofcode.com/2025/day/3#part2"""
 
 def read_puzzle_input(text:str):
 	return text.splitlines()
@@ -23,5 +23,5 @@ for i in voltages:
 		if max(int(j), highest_numbers[times-1]) == int(j):
 			highest_numbers[times-1] = int(j)
 	current += int("".join(map(lambda f: str(f),highest_numbers)))
-	
+
 print(f"Answer: {current}")
