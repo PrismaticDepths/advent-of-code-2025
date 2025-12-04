@@ -12,7 +12,6 @@ def rotate_lock(current:int,offset:int):
 		cur %= 100
 		if cur == 0: count+=1
 		buf -= sign
-	if (current+offset)%100 == 0 and count>0: count -=1
 
 	return (current+offset)%100, count
 
@@ -35,6 +34,5 @@ counter:int = 0
 for i in rotations:
 	lock,zer = rotate_lock(lock,i)
 	counter += zer
-	if lock == 0: counter += 1
 
 print(f"Answer: {counter}")
