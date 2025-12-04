@@ -1,5 +1,4 @@
 """https://adventofcode.com/2025/day/1#part2"""
-import math
 
 def rotate_lock(current:int,offset:int):
 
